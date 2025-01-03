@@ -1,0 +1,120 @@
+body {
+  min-width: 100vw;
+  margin: 0;
+  background-color: whitesmoke;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation a:hover {
+  color: aquamarine;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+header {
+  background-color: teal;
+  margin-bottom: 4px;
+}
+
+ul {
+  padding: 4px;
+}
+
+#profile-img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 80px;
+  width: 80px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  width: 48%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+form input {
+  width: 80vw;
+  padding: 4px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid;
+}
+
+form textarea {
+  width: 80vw;
+  padding: 4px;
+  border-radius: 4px;
+  outline: none;
+}
+
+form label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h2 {
+  color: teal;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile-details h2 {
+  line-height: 1px;
+  margin-bottom: 0px;
+}
+
+button {
+  background-color: teal;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  padding: 4px;
+  max-width: 30vw;
+  cursor: pointer;
+}
+
+section {
+  margin: 0px 10px;
+}
+
+table {
+  width: 100vw;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: teal;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}

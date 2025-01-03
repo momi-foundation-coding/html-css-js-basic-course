@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navigation">
+          <li class="nav-list">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-list">
+            <a href="#about">About</a>
+          </li>
+          <li class="nav-list">
+            <a href="#contact">Contact Me</a>
+          </li>
+          <li class="nav-list">
+            <a href="#gallery">Gallery</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="profile">
+        <div>
+          <img
+            src="./profile.jpg"
+            alt="Ezrqn Kemboi Profile"
+            id="profile-img"
+          />
+        </div>
+        <div class="profile-details">
+          <h2>Ezrqn Kemboi</h2>
+          <p>My name is Ezrqn Kemboi, 
+            the CEO Momi Foundation and 
+            Senior Software Engineer
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>My Professional Career</h2>
+      <ol>
+        <li>Software Engineer at Andela</li>
+        <li>Lead Engineer at TheJitu</li>
+        <li>Senior Engineer at YellowCard</li>
+        <li>CEO, Momi Foundation</li>
+      </ol>
+    </section>
+    <section>
+      <h2>My Skills</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Python</td>
+            <td>Expert</td>
+          </tr>
+          <tr>
+            <td>Javascript</td>
+            <td>Expert</td>
+          </tr>
+          <tr>
+            <td>Leadership</td>
+            <td>Expert</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="contact-me">
+      <h2>Contact Me</h2>
+      <form action="/submit-contact" method="post">
+        <label for="name">Your Name</label>
+        <input 
+          type="text" 
+          id="name" 
+          placeholder="Enter your name"
+          required
+        />
+        <label for="email">Your Email</label>
+        <input 
+          type="email" 
+          id="email" 
+          placeholder="Enter your email"
+          required
+        />
+        <label for="message">Your Message</label>
+        <textarea 
+          id="message" 
+          name="message" 
+          placeholder="Write your message"
+          rows="5"
+          required
+        ></textarea>
+        <button>
+          Submit
+        </button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="./profile.jpg" height="200px" width="300px" />
+        </div>
+        <div class="gallery-item">
+          <img src="./gym.jpg" height="200px" width="300px" />
+        </div>
+        <div class="gallery-item">
+          <img src="./mindililwo.jpg" height="200px" width="300px" />
+        </div>
+        <div class="gallery-item">
+          <img src="./serious.jpg" height="200px" width="300px" />
+        </div> 
+      </div>
+    </section>
+  </body>
+</html>
