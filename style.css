@@ -40,15 +40,23 @@ ul {
 }
 
 .gallery {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  overflow: hidden;
-  flex-wrap: wrap;
+  width: 100vw;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px 15px;
+  border: 1px solid #ddd;
+  scroll-behavior: smooth;
 }
 
 .gallery-item {
   width: 48%;
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.3s ease
+}
+
+.gallery-item:hover {
+  transform: scale(1.1);
 }
 
 form {
@@ -117,4 +125,10 @@ th {
   color: white;
   text-align: left;
   font-weight: bold;
+}
+
+footer {
+  margin: 20px;
+  text-align: center;
+  border-top: 1px solid;
 }
