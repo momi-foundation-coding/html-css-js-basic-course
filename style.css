@@ -16,7 +16,10 @@ body {
 }
 
 .navigation a:hover {
-  color: aquamarine;
+  color: black;
+  background-color: white;
+  padding: 4px;
+  border: 2px solid teal;
 }
 
 .nav-list {
