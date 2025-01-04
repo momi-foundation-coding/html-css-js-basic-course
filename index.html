@@ -109,8 +109,8 @@
     <section>
       <h2>Gallery</h2>
       <div class="gallery-wrapper">
-        <button class="scroll-button left"><</button>
-        <div class="gallery">
+        <button class="scroll-button left" onclick="scrollGallery(-1)"><</button>
+        <div class="gallery" id="galleryContainer">
           <div class="gallery-item">
             <img src="./profile.jpg" height="200px" width="300px" />
           </div>
@@ -148,11 +148,12 @@
             <img src="./suti.jpg" height="200px" width="300px" />
           </div>  
         </div>
-        <button class="scroll-button right">></button>
+        <button class="scroll-button right" onclick="scrollGallery(1)">></button>
       </div>
     </section>
     <footer>
       <p>&copy; 2025, Momi Foundation</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
